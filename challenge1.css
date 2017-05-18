@@ -1,0 +1,145 @@
+/*************************
+ *  your code goes here  *
+ *************************/
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bxc .bx-creative {
+  height: 100vh;
+  width: 72vw;
+  max-width: 1229px;
+  max-height: 820px;
+  background-color: #FFC216;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.bxc .bx-creative .bx-group {
+  position: relative;
+}
+
+.bx-group-1 {
+  position: absolute;
+  top: 25px;
+  padding-bottom: 50px;
+}
+
+.bx-row .bx-row-headline {
+  position: relative;
+  top: 0;
+}
+
+.bxc .bx-creative input[type="email"] {
+  border: 1px solid #fff;
+  max-width: 65%;
+  -moz-box-shadow:    inset 0 0 10px #C2C2C2;
+  -webkit-box-shadow: inset 0 0 10px #C2C2C2;
+  box-shadow:         inset 0 0 10px #C2C2C2;
+  text-align: center;
+  font-size: 120%;
+  font-weight: lighter;
+}
+
+hr {
+  max-width: 50%;
+  border-color: #fff;
+  margin-top: -5px;
+}
+
+hr::before {
+  content: '';
+  display: block;
+  position: relative;
+  height: 7px;
+  width: 70%;
+  box-shadow: 0 15px 27px 2px rgba(0, 0, 0, 0.9);
+  transform: rotate(-2deg);
+  bottom: 23px;
+  left: 3%;
+}
+
+span hr::before {
+  height: 18px;
+  box-shadow: 0 15px 30px 4px rgba(0, 0, 0, 0.7);
+  bottom: 30px;
+  transform: rotate(-3deg);
+}
+
+::-webkit-input-placeholder {
+  color: #C2C2C2;
+}
+::-moz-placeholder {
+  color: #C2C2C2;
+}
+:-ms-input-placeholder {
+  color: #C2C2C2;
+}
+:-moz-placeholder {
+  color: #C2C2C2;
+}
+
+.bxc .bx-creative input[type="submit"]  {
+  max-width: 65%;
+  background: #2654A1;
+  border: none;
+  background-image: -webkit-linear-gradient(top, #2654A1, #081176);
+  background-image: -moz-linear-gradient(top, #2654A1, #081176);
+  background-image: -ms-linear-gradient(top, #2654A1, #081176);
+  background-image: -o-linear-gradient(top, #2654A1, #081176);
+  background-image: linear-gradient(to bottom, #2654A1, #081176);
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 2em;
+  position: relative;
+}
+
+.bx-step::before {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 30%;
+  width: 40%;
+  height: auto;
+  content: url(lufthansa-logo_white.svg);
+}
+
+.corner {
+  position: absolute;
+  top: 10%;
+  right: -10%;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 300px;
+  box-shadow: 0 5px 20px 4px rgba(0,0,0,0.25), 0 1px 5px 0.1px #2C2C2D;
+}
+
+.bx-row-subheadline-1, .bx-row-headline-1, .bx-row-headline-2 {
+  color: #000066;
+  letter-spacing: -2px;
+}
+
+.bx-row-subheadline-1 {
+  font-weight: lighter;
+  font-size: 30px;
+  line-height: 2rem;
+}
+
+
+.bx-row-headline-1 {
+  font-size: 70px;
+  font-weight: 600;
+  padding: 0;
+}
+
+.bx-row-headline-2 {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 3rem;
+  padding-bottom: 10px;
+}
